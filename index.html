@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#faf9f5">
+  <meta name="description" content="CronoRO — ce s-a întâmplat azi în istoria României și a Europei. Educațional, documentat, cu surse. / What happened today in Romanian and European history.">
+  <title>CronoRO — Azi în istorie</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-logo" aria-hidden="true">⏳</span>
+      <span class="brand-name">Crono<span class="accent">RO</span></span>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-view="today" role="tab" aria-selected="true" data-i18n="tabToday">Azi în istorie</button>
+      <button class="tab" data-view="compare" role="tab" aria-selected="false" data-i18n="tabCompare">Atunci vs. Acum</button>
+      <button class="tab" data-view="quiz" role="tab" aria-selected="false" data-i18n="tabQuiz">Quiz</button>
+    </nav>
+    <div class="topbar-toggles">
+      <button id="theme-toggle" class="lang-toggle" aria-label="Schimbă tema">🌙</button>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== VIEW: AZI ÎN ISTORIE / TODAY IN HISTORY ===== -->
+    <section id="view-today" class="view active">
+      <div class="date-nav">
+        <button id="prev-day" class="icon-btn" aria-label="Ziua precedentă">‹</button>
+        <div class="date-display">
+          <h1 id="date-title">…</h1>
+          <p id="date-sub" class="muted"></p>
+        </div>
+        <button id="next-day" class="icon-btn" aria-label="Ziua următoare">›</button>
+      </div>
+
+      <div class="date-actions">
+        <button id="go-today" class="pill-btn"><span aria-hidden="true">📍</span> <span data-i18n="btnToday">Azi</span></button>
+        <button id="go-random" class="pill-btn"><span aria-hidden="true">🎲</span> <span data-i18n="btnRandom">O zi la întâmplare</span></button>
+        <label class="pill-btn date-pick-label">
+          <span aria-hidden="true">📅</span> <span data-i18n="btnPick">Alege data</span>
+          <input type="date" id="date-pick" aria-label="Alege o dată">
+        </label>
+      </div>
+
+      <div id="era-filters" class="era-filters" aria-label="Filtrează după epocă"></div>
+
+      <div id="timeline" class="timeline"></div>
+    </section>
+
+    <!-- ===== VIEW: ATUNCI VS ACUM / THEN VS NOW ===== -->
+    <section id="view-compare" class="view">
+      <div class="view-intro">
+        <h1 id="compare-title">Atunci <span class="vs">vs.</span> Acum</h1>
+        <p class="muted" data-i18n="compareIntro"></p>
+      </div>
+      <div id="compare-grid" class="compare-grid"></div>
+      <p class="footnote" data-i18n="compareFootnote"></p>
+    </section>
+
+    <!-- ===== VIEW: QUIZ ===== -->
+    <section id="view-quiz" class="view">
+      <div class="view-intro">
+        <h1 data-i18n="quizTitle"></h1>
+        <p class="muted" data-i18n="quizIntro"></p>
+      </div>
+      <div id="quiz-box" class="quiz-box"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n-html="footerMain"></p>
+    <p class="muted" data-i18n="footerSources"></p>
+  </footer>
+
+  <script src="data/events.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

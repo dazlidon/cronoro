@@ -1,0 +1,8 @@
+{
+  "appId": "ro.cronoro.app",
+  "appName": "CronoRO",
+  "webDir": "app-ios",
+  "ios": {
+    "contentInset": "automatic"
+  }
+}

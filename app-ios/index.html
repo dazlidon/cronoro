@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>CronoRO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <!-- ===== Header compact (optimizat pentru swipe) ===== -->
+  <header class="topbar">
+    <span class="brand"><img src="icons/mark.svg" alt="" class="brand-mark mark-light"><img src="icons/mark-dark.svg" alt="" class="brand-mark mark-dark">Crono<span class="accent">RO</span></span>
+    <div class="topbar-actions">
+      <button id="theme-toggle" class="chip-btn" aria-label="Schimbă tema">🌙</button>
+      <button id="lang-toggle" class="chip-btn" aria-label="Switch language">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== VIEW: AZI ===== -->
+    <section id="view-today" class="view active">
+      <div class="date-row">
+        <button id="prev-day" class="nav-arrow" aria-label="Ziua precedentă">‹</button>
+        <div class="date-display">
+          <h1 id="date-title">…</h1>
+          <p id="date-sub" class="muted"></p>
+        </div>
+        <button id="next-day" class="nav-arrow" aria-label="Ziua următoare">›</button>
+      </div>
+
+      <div class="toolbar">
+        <button id="go-today" class="tool-btn" aria-label="Azi">📍 <span data-i18n="btnToday">Azi</span></button>
+        <button id="go-random" class="tool-btn" aria-label="O zi la întâmplare">🎲</button>
+        <label class="tool-btn date-pick-label" aria-label="Alege data">📅
+          <input type="date" id="date-pick">
+        </label>
+        <button id="open-filter" class="tool-btn" aria-label="Filtrează epocile">
+          <span id="filter-dot" class="filter-dot" hidden></span>⚙︎ <span data-i18n="btnEras">Epoci</span>
+        </button>
+      </div>
+
+      <div id="swipe-zone" class="swipe-zone">
+        <div id="timeline" class="timeline"></div>
+        <p id="swipe-hint" class="swipe-hint" data-i18n="swipeHint">← glisează pentru altă zi →</p>
+      </div>
+    </section>
+
+    <!-- ===== VIEW: ATUNCI VS ACUM ===== -->
+    <section id="view-compare" class="view">
+      <div class="view-intro">
+        <h1 id="compare-title">Atunci <span class="vs">vs.</span> Acum</h1>
+        <p class="muted" data-i18n="compareIntro"></p>
+      </div>
+      <div id="compare-grid" class="compare-grid"></div>
+      <p class="footnote" data-i18n="compareFootnote"></p>
+    </section>
+
+    <!-- ===== VIEW: QUIZ ===== -->
+    <section id="view-quiz" class="view">
+      <div class="view-intro">
+        <h1 data-i18n="quizTitle"></h1>
+        <p class="muted" data-i18n="quizIntro"></p>
+      </div>
+      <div id="quiz-box" class="quiz-box"></div>
+    </section>
+  </main>
+
+  <!-- ===== Bottom sheet: filtre de epocă ===== -->
+  <div id="sheet-backdrop" class="sheet-backdrop" hidden></div>
+  <div id="era-sheet" class="sheet" role="dialog" aria-modal="true" hidden>
+    <div class="sheet-handle"></div>
+    <h2 class="sheet-title" data-i18n="sheetTitle">Filtrează după epocă</h2>
+    <div id="era-filters" class="era-filters"></div>
+  </div>
+
+  <!-- ===== Bara de tab-uri jos (stil iOS) ===== -->
+  <nav class="tabbar" role="tablist">
+    <button class="tabbar-btn active" data-view="today" role="tab" aria-selected="true">
+      <span class="tabbar-icon">🕰️</span><span data-i18n="tabToday">Azi</span>
+    </button>
+    <button class="tabbar-btn" data-view="compare" role="tab" aria-selected="false">
+      <span class="tabbar-icon">⚖️</span><span data-i18n="tabCompare">Atunci vs. Acum</span>
+    </button>
+    <button class="tabbar-btn" data-view="quiz" role="tab" aria-selected="false">
+      <span class="tabbar-icon">🧠</span><span data-i18n="tabQuiz">Quiz</span>
+    </button>
+  </nav>
+
+  <script src="data/events.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

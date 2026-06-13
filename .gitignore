@@ -1,0 +1,15 @@
+# Dependencies (regenerable from package.json)
+node_modules/
+
+# macOS junk
+.DS_Store
+
+# Dev environment
+.claude/
+
+# iOS build artifacts (regenerable)
+ios/App/build/
+ios/App/DerivedData/
+ios/App/Pods/
+ios/App/App/public/
+*.xcuserstate

@@ -1,0 +1,13 @@
+{
+  "name": "CronoRO — Azi în istorie",
+  "short_name": "CronoRO",
+  "description": "Ce s-a întâmplat azi în istoria României și a Europei. Educațional, documentat, cu surse.",
+  "lang": "ro",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf9f5",
+  "theme_color": "#faf9f5",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
