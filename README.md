@@ -2,6 +2,8 @@
 
 Aplicație web educațională bilingvă (RO/EN) pentru Gen-Z: deschizi aplicația și vezi **ce s-a întâmplat în această zi** în istoria României și a Europei, din epoca medievală până în era UE. Design în stil Anthropic: hârtie caldă, serif, accente coral.
 
+🌍 **Live:** https://dazlidon.github.io/cronoro/ (GitHub Pages, deploy automat la fiecare `git push` pe `main`)
+
 ## Principii editoriale (NU se negociază)
 
 1. **Nimic inventat.** Intră în baza de date doar evenimente documentate, cu dată verificabilă.
