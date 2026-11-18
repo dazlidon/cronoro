@@ -87,6 +87,28 @@ const EVENTS = [
     why:{ ro:"Primul pas concret spre statul român modern.", en:"The first concrete step towards the modern Romanian state." },
     sources:[{n:"Wikipedia: Unirea Principatelor Române", u:"https://ro.wikipedia.org/wiki/Unirea_Principatelor_Rom%C3%A2ne"}] },
 
+  { m:1, d:1, y:2014, scope:"ro", era:"ue",
+    title:{ ro:"Cad ultimele restricții: românii pot munci liber în toată UE", en:"The last restrictions fall: Romanians can work freely across the EU" },
+    text:{ ro:"Se încheie perioada de tranziție de 7 ani de după aderare, în care unele state membre limitaseră accesul lucrătorilor români pe piața muncii. De la 1 ianuarie 2014, restricțiile sunt ridicate peste tot.",
+           en:"The 7-year transition period after accession, during which some member states had limited Romanian workers' access to their labour markets, comes to an end. From 1 January 2014, the restrictions are lifted everywhere." },
+    why:{ ro:"Libertatea de a munci oriunde în Europa — de neimaginat pentru o generație care avea nevoie de aprobarea partidului ca să iasă din țară.",
+          en:"The freedom to work anywhere in Europe — unimaginable for a generation that needed the party's approval just to leave the country." },
+    sources:[{n:"Wikipedia: 2007 enlargement of the EU", u:"https://en.wikipedia.org/wiki/2007_enlargement_of_the_European_Union"}] },
+
+  { m:1, d:1, y:2019, scope:"ro", era:"ue",
+    title:{ ro:"România preia pentru prima dată Președinția Consiliului UE", en:"Romania holds the Presidency of the Council of the EU for the first time" },
+    text:{ ro:"Timp de șase luni (1 ianuarie – 30 iunie 2019), România prezidează Consiliul Uniunii Europene, conducând reuniunile și negocierile dintre statele membre.",
+           en:"For six months (1 January – 30 June 2019), Romania chairs the Council of the European Union, leading the meetings and negotiations between member states." },
+    why:{ ro:"La 12 ani de la aderare, România nu mai doar aplică reguli europene — le negociază pentru toți.",
+          en:"Twelve years after accession, Romania no longer just applies European rules — it negotiates them for everyone." },
+    sources:[{n:"Wikipedia: 2019 Romanian Presidency of the Council of the EU", u:"https://en.wikipedia.org/wiki/2019_Romanian_Presidency_of_the_Council_of_the_European_Union"}] },
+
+  { m:1, d:28, y:1952, scope:"ro", era:"comunism",
+    title:{ ro:"A doua reformă monetară comunistă în cinci ani", en:"The second communist currency reform in five years" },
+    text:{ ro:"După „stabilizarea” din 1947, regimul schimbă din nou moneda: noul leu este introdus cu rate de conversie diferite pentru numerar, depozite și alte categorii de bani, stabilite de stat.",
+           en:"After the 1947 'stabilisation', the regime changes the currency again: the new leu is introduced at different conversion rates, set by the state, for cash, deposits and other categories of money." },
+    sources:[{n:"Wikipedia: Romanian leu", u:"https://en.wikipedia.org/wiki/Romanian_leu"}] },
+
   /* ---------------- FEBRUARIE / FEBRUARY ---------------- */
   { m:2, d:1, y:1993, scope:"ro", era:"tranzitie",
     title:{ ro:"România semnează Acordul european de asociere", en:"Romania signs the Europe Association Agreement" },
@@ -132,8 +154,8 @@ const EVENTS = [
 
   { m:2, d:21, y:1907, scope:"ro", era:"modern",
     title:{ ro:"Începe Răscoala țărănească de la 1907", en:"The 1907 peasants' revolt begins" },
-    text:{ ro:"Revolta pornește de la Flămânzi (Botoșani) și cuprinde mare parte din țară. Represiunea armatei face mii de victime în rândul țăranilor.",
-           en:"The revolt starts in Flămânzi (Botoșani) and spreads across much of the country. The army's repression kills thousands of peasants." },
+    text:{ ro:"Revolta pornește de la Flămânzi (Botoșani) și cuprinde mare parte din țară, iar armata o reprimă cu brutalitate. Bilanțul morților rămâne disputat: cifra oficială este de 419, în timp ce estimarea neoficială de circa 10.000, larg circulată, nu a fost niciodată dovedită.",
+           en:"The revolt starts in Flămânzi (Botoșani) and spreads across much of the country, and the army crushes it brutally. The death toll remains disputed: the official figure is 419, while the widely circulated unofficial estimate of about 10,000 has never been proven." },
     why:{ ro:"Simptom al inegalităților profunde din România rurală de dinainte de reformele agrare.",
           en:"A symptom of the deep inequalities of rural Romania before the land reforms." },
     sources:[{n:"Wikipedia: 1907 Romanian peasants' revolt", u:"https://en.wikipedia.org/wiki/1907_Romanian_peasants%27_revolt"}] },
@@ -171,6 +193,22 @@ const EVENTS = [
     text:{ ro:"Liderii răscoalei țărănești din Transilvania (1784) sunt executați prin tragere pe roată la Alba Iulia. Crișan murise deja în închisoare.",
            en:"The leaders of the 1784 Transylvanian peasant revolt are executed on the breaking wheel at Alba Iulia. Crișan had already died in prison." },
     sources:[{n:"Wikipedia: Revolt of Horea, Cloșca and Crișan", u:"https://en.wikipedia.org/wiki/Revolt_of_Horea,_Clo%C8%99ca_and_Cri%C8%99an"}] },
+
+  { m:2, d:5, y:2017, scope:"ro", era:"ue",
+    title:{ ro:"#rezist: cele mai mari proteste din istoria României", en:"#rezist: the largest protests in Romania's history" },
+    text:{ ro:"În noaptea de 31 ianuarie, guvernul adoptase pe ascuns o ordonanță de urgență care modifica Codul penal, acuzată că dezincriminează fapte de corupție. Pe 5 februarie, între 500.000 și 600.000 de oameni ies în stradă în toată țara. Guvernul abrogă ordonanța.",
+           en:"On the night of 31 January, the government had secretly adopted an emergency ordinance amending the Criminal Code, accused of decriminalising corruption. On 5 February, between 500,000 and 600,000 people take to the streets across the country. The government repeals the ordinance." },
+    why:{ ro:"O generație crescută în libertate a ieșit în stradă pentru statul de drept — exact ce era imposibil înainte de 1989.",
+          en:"A generation raised in freedom took to the streets for the rule of law — exactly what was impossible before 1989." },
+    sources:[{n:"Wikipedia: 2017–2019 Romanian protests", u:"https://en.wikipedia.org/wiki/2017%E2%80%932019_Romanian_protests"}] },
+
+  { m:2, d:15, y:2000, scope:"ro", era:"tranzitie",
+    title:{ ro:"Încep negocierile de aderare a României la UE", en:"Romania's EU accession negotiations begin" },
+    text:{ ro:"După decizia Consiliului European de la Helsinki din decembrie 1999, România deschide oficial negocierile de aderare la Uniunea Europeană.",
+           en:"Following the European Council's decision in Helsinki in December 1999, Romania officially opens its accession negotiations with the European Union." },
+    why:{ ro:"Începutul unui maraton de reforme de șapte ani — justiție, economie, administrație — care a dus la aderarea din 2007.",
+          en:"The start of a seven-year reform marathon — justice, economy, administration — that led to accession in 2007." },
+    sources:[{n:"Wikipedia: Aderarea României la Uniunea Europeană", u:"https://ro.wikipedia.org/wiki/Aderarea_Rom%C3%A2niei_la_Uniunea_European%C4%83"}] },
 
   /* ---------------- MARTIE / MARCH ---------------- */
   { m:3, d:3, y:1949, scope:"ro", era:"comunism",
@@ -268,6 +306,21 @@ const EVENTS = [
            en:"After 13 years of waiting, checks disappear in airports and ports for travel to the Schengen area." },
     sources:[{n:"Wikipedia: Schengen Area", u:"https://en.wikipedia.org/wiki/Schengen_Area"}] },
 
+  { m:3, d:11, y:1990, scope:"ro", era:"tranzitie",
+    title:{ ro:"Proclamația de la Timișoara cere lustrația", en:"The Proclamation of Timișoara demands lustration" },
+    text:{ ro:"Participanții la Revoluție din Timișoara publică un document în 13 puncte. Punctul 8 cerea ca foștii activiști comuniști și ofițerii de Securitate să nu poată candida la funcții publice. Cererea nu a fost aplicată: alegerile din mai 1990 au avut loc fără lustrație.",
+           en:"Participants in the Revolution in Timișoara publish a 13-point document. Point 8 demanded that former communist activists and Securitate officers be barred from running for public office. The demand was not applied: the May 1990 elections took place without lustration." },
+    why:{ ro:"Lipsa lustrației explică de ce tranziția României a fost atât de lentă: mulți oameni ai vechiului regim au rămas la putere.",
+          en:"The lack of lustration helps explain why Romania's transition was so slow: many people of the old regime stayed in power." },
+    sources:[{n:"Wikipedia: Proclamation of Timișoara", u:"https://en.wikipedia.org/wiki/Proclamation_of_Timi%C8%99oara"}] },
+
+  { m:3, d:16, y:2023, scope:"eu", era:"ue",
+    title:{ ro:"Republica Moldova: limba de stat se numește oficial „limba română”", en:"Moldova officially names its state language 'Romanian'" },
+    text:{ ro:"Parlamentul de la Chișinău adoptă legea prin care limba de stat este numită „limba română” în toate textele legislative și în Constituție — renunțând la denumirea de „limbă moldovenească”, moștenire a politicii sovietice.",
+           en:"The parliament in Chișinău passes a law naming the state language 'Romanian' in all legislation and in the Constitution — dropping the term 'Moldovan language', a legacy of Soviet policy." },
+    sources:[{n:"Wikipedia: Romanian language", u:"https://en.wikipedia.org/wiki/Romanian_language"},
+             {n:"Wikipedia: Moldovan language", u:"https://en.wikipedia.org/wiki/Moldovan_language"}] },
+
   /* ---------------- APRILIE / APRIL ---------------- */
   { m:4, d:4, y:1944, scope:"ro", era:"ww2",
     title:{ ro:"Bombardamentul american asupra Bucureștiului", en:"The American bombing of Bucharest" },
@@ -310,6 +363,22 @@ const EVENTS = [
     why:{ ro:"Manual de funcționare a regimurilor totalitare: secretomanie, propagandă, disprețul față de viața oamenilor.",
           en:"A handbook of totalitarian regimes: secrecy, propaganda, contempt for human life." },
     sources:[{n:"Wikipedia: Chernobyl disaster", u:"https://en.wikipedia.org/wiki/Chernobyl_disaster"}] },
+
+  { m:4, d:7, y:2009, scope:"eu", era:"ue",
+    title:{ ro:"Chișinău: tinerii protestează împotriva alegerilor contestate", en:"Chișinău: young people protest against disputed elections" },
+    text:{ ro:"După alegerile parlamentare din aprilie, câștigate de comuniști și contestate de opoziție, zeci de mii de oameni — majoritatea studenți și tineri — protestează la Chișinău. Pe 7 aprilie, manifestația degenerează în violențe: clădirile Parlamentului și Președinției sunt devastate.",
+           en:"After the April parliamentary elections, won by the Communists and disputed by the opposition, tens of thousands of people — mostly students and young people — protest in Chișinău. On 7 April, the demonstration turns violent: the parliament and presidential buildings are ransacked." },
+    why:{ ro:"Ca românii în 1989–1990, tinerii de dincolo de Prut au cerut alegeri corecte și un drum european.",
+          en:"Like Romanians in 1989–1990, young people across the Prut demanded fair elections and a European path." },
+    sources:[{n:"Wikipedia: April 2009 Moldovan election protests", u:"https://en.wikipedia.org/wiki/April_2009_Moldovan_parliamentary_election_protests"}] },
+
+  { m:4, d:22, y:1990, scope:"ro", era:"tranzitie",
+    title:{ ro:"Începe „Golaniada” din Piața Universității", en:"The 'Golaniad' begins in University Square" },
+    text:{ ro:"Studenți și profesori ocupă Piața Universității din București, cerând ca foștii lideri comuniști să nu preia puterea în România post-revoluționară. Protestul, numit „Golaniada” (de la „golan”), durează aproape două luni — până la intervenția violentă a minerilor din 13–15 iunie.",
+           en:"Students and professors occupy University Square in Bucharest, demanding that former communist leaders not take power in post-revolutionary Romania. The protest, called the 'Golaniad' (from 'golan', hoodlum), lasts almost two months — until the miners' violent intervention of 13–15 June." },
+    why:{ ro:"Prima mare mișcare civică a României libere — încheiată cu violență de Mineriada din iunie 1990.",
+          en:"Free Romania's first great civic movement — ended violently by the Mineriad of June 1990." },
+    sources:[{n:"Wikipedia: Golaniad", u:"https://en.wikipedia.org/wiki/Golaniad"}] },
 
   /* ---------------- MAI / MAY ---------------- */
   { m:5, d:1, y:2004, scope:"eu", era:"tranzitie",
@@ -372,11 +441,30 @@ const EVENTS = [
     sources:[{n:"Wikipedia: Danube–Black Sea Canal", u:"https://en.wikipedia.org/wiki/Danube%E2%80%93Black_Sea_Canal"},
              {n:"Memorialul Sighet", u:"https://www.memorialsighet.ro/"}] },
 
-  { m:5, d:27, y:1600, scope:"ro", era:"medieval",
-    title:{ ro:"Mihai Viteazul, domn al celor trei țări române", en:"Michael the Brave, ruler of the three Romanian principalities" },
-    text:{ ro:"Mihai Viteazul se intitulează „domn al Țării Românești, al Ardealului și a toată Țara Moldovei” — prima unire politică, fie și de scurtă durată, a celor trei principate.",
-           en:"Michael the Brave styles himself 'ruler of Wallachia, Transylvania and all of Moldavia' — the first political union, however short-lived, of the three principalities." },
-    sources:[{n:"Wikipedia: Mihai Viteazul", u:"https://ro.wikipedia.org/wiki/Mihai_Viteazul"}] },
+  { m:5, d:6, y:1600, scope:"ro", era:"medieval",
+    title:{ ro:"Mihai Viteazul intră în Iași: cele trei țări române, sub un singur conducător", en:"Michael the Brave enters Iași: the three Romanian lands under one ruler" },
+    text:{ ro:"După ce trupele sale trec în Moldova pe 14 aprilie, Mihai Viteazul ajunge în capitala Iași pe 6 mai 1600. Pentru scurt timp, Țara Românească, Transilvania și Moldova sunt conduse de același om — prima unire politică, fie și efemeră, a celor trei țări.",
+           en:"After his troops cross into Moldavia on 14 April, Michael the Brave reaches the capital, Iași, on 6 May 1600. For a short time, Wallachia, Transylvania and Moldavia are ruled by the same man — the first political union, however short-lived, of the three lands." },
+    why:{ ro:"Unirea lui Mihai a durat doar câteva luni, dar a devenit simbolul pe care s-au sprijinit generațiile Unirii din 1859 și 1918.",
+          en:"Michael's union lasted only months, but it became the symbol that inspired the generations of the 1859 and 1918 unions." },
+    sources:[{n:"Wikipedia: Michael the Brave", u:"https://en.wikipedia.org/wiki/Michael_the_Brave"},
+             {n:"Wikipedia: Mihai Viteazul", u:"https://ro.wikipedia.org/wiki/Mihai_Viteazul"}] },
+
+  { m:5, d:18, y:2025, scope:"ro", era:"ue",
+    title:{ ro:"Alegerile prezidențiale reluate: Nicușor Dan câștigă", en:"The rerun presidential election: Nicușor Dan wins" },
+    text:{ ro:"În turul al doilea al alegerilor reluate după anularea scrutinului din 2024, Nicușor Dan câștigă președinția cu 53,6% din voturi, în fața lui George Simion (46,4%). Simion recunoaște rezultatul.",
+           en:"In the runoff of the election rerun after the 2024 vote was annulled, Nicușor Dan wins the presidency with 53.6% of the vote against George Simion (46.4%). Simion concedes." },
+    why:{ ro:"Instituțiile democratice au trecut un test greu: alegerile au fost reluate, iar învinsul a recunoscut rezultatul.",
+          en:"Democratic institutions passed a hard test: the election was rerun, and the loser accepted the result." },
+    sources:[{n:"Wikipedia: 2025 Romanian presidential election", u:"https://en.wikipedia.org/wiki/2025_Romanian_presidential_election"}] },
+
+  { m:5, d:20, y:1990, scope:"ro", era:"tranzitie",
+    title:{ ro:"Primele alegeri după căderea comunismului", en:"The first elections after the fall of communism" },
+    text:{ ro:"România votează pentru președinte și Parlament, la șase luni după Revoluție. Frontul Salvării Naționale și Ion Iliescu câștigă cu o majoritate covârșitoare.",
+           en:"Romania votes for president and parliament, six months after the Revolution. The National Salvation Front and Ion Iliescu win by an overwhelming majority." },
+    why:{ ro:"Primul vot competitiv după cel din 1937 — dar democrația reală avea să se construiască treptat, până la prima alternanță la putere din 1996.",
+          en:"The first competitive vote since 1937 — but real democracy would be built gradually, up to the first change of power in 1996." },
+    sources:[{n:"Wikipedia: 1990 Romanian general election", u:"https://en.wikipedia.org/wiki/1990_Romanian_general_election"}] },
 
   /* ---------------- IUNIE / JUNE ---------------- */
   { m:6, d:1, y:1946, scope:"ro", era:"comunism",
@@ -551,6 +639,22 @@ const EVENTS = [
     sources:[{n:"Wikipedia: Iași pogrom", u:"https://en.wikipedia.org/wiki/Ia%C8%99i_pogrom"},
              {n:"Institutul Elie Wiesel", u:"https://www.inshr-ew.ro/"}] },
 
+  { m:6, d:15, y:2017, scope:"eu", era:"ue",
+    title:{ ro:"Roaming-ul dispare în toată Uniunea Europeană", en:"Roaming charges disappear across the European Union" },
+    text:{ ro:"De la 15 iunie 2017, apelurile, SMS-urile și datele mobile folosite temporar în alt stat UE/SEE costă la fel ca acasă — „Roam like at home”.",
+           en:"From 15 June 2017, calls, texts and mobile data used temporarily in another EU/EEA country cost the same as at home — 'Roam like at home'." },
+    why:{ ro:"Un beneficiu direct pentru orice tânăr român care pleacă în Erasmus, în vacanță sau la muncă în UE.",
+          en:"A direct benefit for every young Romanian going on Erasmus, on holiday or to work in the EU." },
+    sources:[{n:"Wikipedia: European Union roaming regulations", u:"https://en.wikipedia.org/wiki/European_Union_roaming_regulations"}] },
+
+  { m:6, d:25, y:1984, scope:"ro", era:"comunism",
+    title:{ ro:"Începe construcția Casei Poporului", en:"Construction of the People's House begins" },
+    text:{ ro:"Ceaușescu inaugurează șantierul uriașului palat. Pentru el, Dealul Uranus este nivelat și o parte din Bucureștiul istoric este demolată — în anii în care populația trăia cu rații, frig și întuneric.",
+           en:"Ceaușescu opens the construction site of the gigantic palace. For it, Uranus Hill is levelled and part of historic Bucharest is demolished — in the years when the population lived with rationing, cold and darkness." },
+    why:{ ro:"Clădirea, azi sediul Parlamentului, rămâne monumentul megalomaniei unui dictator plătite de un popor înfometat.",
+          en:"The building, now home to Parliament, remains a monument to a dictator's megalomania, paid for by a starving people." },
+    sources:[{n:"Wikipedia: Palace of the Parliament", u:"https://en.wikipedia.org/wiki/Palace_of_the_Parliament"}] },
+
   /* ---------------- IULIE / JULY ---------------- */
   { m:7, d:1, y:1866, scope:"ro", era:"modern",
     title:{ ro:"Prima Constituție a României", en:"Romania's first Constitution" },
@@ -598,6 +702,31 @@ const EVENTS = [
            en:"Through the 1962–1964 pardon decrees, the Gheorghiu-Dej regime releases the tens of thousands of political prisoners who had survived the Romanian Gulag. Many leave with their health destroyed, still shadowed by the Securitate." },
     sources:[{n:"Wikipedia: Socialist Republic of Romania", u:"https://en.wikipedia.org/wiki/Socialist_Republic_of_Romania"},
              {n:"Memorialul Sighet", u:"https://www.memorialsighet.ro/"}] },
+
+  { m:7, d:1, y:2013, scope:"eu", era:"ue",
+    title:{ ro:"Croația devine al 28-lea stat membru al UE", en:"Croatia becomes the EU's 28th member state" },
+    text:{ ro:"La 22 de ani după ce și-a declarat independența în timpul războaielor din fosta Iugoslavie, Croația aderă la Uniunea Europeană.",
+           en:"Twenty-two years after declaring independence during the wars of the former Yugoslavia, Croatia joins the European Union." },
+    sources:[{n:"Wikipedia: 2013 enlargement of the EU", u:"https://en.wikipedia.org/wiki/2013_enlargement_of_the_European_Union"}] },
+
+  { m:7, d:2, y:1504, scope:"ro", era:"medieval",
+    title:{ ro:"Moare Ștefan cel Mare", en:"Stephen the Great dies" },
+    text:{ ro:"Domn al Moldovei din 1457, Ștefan cel Mare moare după 47 de ani de domnie, în care a apărat țara de otomani, maghiari și polonezi și a ridicat numeroase cetăți și mănăstiri. Este înmormântat la Mănăstirea Putna.",
+           en:"Ruler of Moldavia since 1457, Stephen the Great dies after a 47-year reign in which he defended the country against Ottomans, Hungarians and Poles and built numerous fortresses and monasteries. He is buried at Putna Monastery." },
+    sources:[{n:"Wikipedia: Stephen the Great", u:"https://en.wikipedia.org/wiki/Stephen_the_Great"}] },
+
+  { m:7, d:13, y:1878, scope:"ro", era:"modern",
+    title:{ ro:"Congresul de la Berlin recunoaște independența României", en:"The Congress of Berlin recognises Romania's independence" },
+    text:{ ro:"Tratatul de la Berlin recunoaște internațional independența proclamată în 1877. România primește Dobrogea, dar este obligată să cedeze Rusiei sudul Basarabiei — deși luptase alături de ea în război.",
+           en:"The Treaty of Berlin internationally recognises the independence proclaimed in 1877. Romania receives Dobruja but is forced to cede southern Bessarabia to Russia — despite having fought alongside it in the war." },
+    sources:[{n:"Wikipedia: Treaty of Berlin (1878)", u:"https://en.wikipedia.org/wiki/Treaty_of_Berlin_(1878)"},
+             {n:"Wikipedia: Kingdom of Romania", u:"https://en.wikipedia.org/wiki/Kingdom_of_Romania"}] },
+
+  { m:7, d:26, y:1476, scope:"ro", era:"medieval",
+    title:{ ro:"Bătălia de la Războieni (Valea Albă)", en:"The Battle of Războieni (Valea Albă)" },
+    text:{ ro:"Sultanul Mehmed al II-lea conduce personal o mare armată otomană în Moldova. Încercuit, Ștefan cel Mare pierde bătălia de la Războieni, dar otomanii nu reușesc să cucerească cetățile Moldovei și se retrag.",
+           en:"Sultan Mehmed II personally leads a large Ottoman army into Moldavia. Surrounded, Stephen the Great loses the battle of Războieni, but the Ottomans fail to take Moldavia's fortresses and withdraw." },
+    sources:[{n:"Wikipedia: Battle of Valea Albă", u:"https://en.wikipedia.org/wiki/Battle_of_Valea_Alb%C4%83"}] },
 
   /* ---------------- AUGUST ---------------- */
   { m:8, d:1, y:1977, scope:"ro", era:"comunism",
@@ -687,6 +816,42 @@ const EVENTS = [
            en:"Polish strikers led by Lech Wałęsa wrest the right to free trade unions from the regime — the Soviet bloc's first independent union and the future engine of communism's fall in Poland." },
     sources:[{n:"Wikipedia: Gdańsk Agreement", u:"https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement"}] },
 
+  { m:8, d:5, y:1929, scope:"ro", era:"interbelic",
+    title:{ ro:"Greva de la Lupeni, reprimată cu focuri de armă", en:"The Lupeni strike is put down with gunfire" },
+    text:{ ro:"Greva minerilor din Lupeni (Valea Jiului) este reprimată cu focuri de armă de forțele de ordine. Sursele dau bilanțuri diferite, între 16 și 58 de morți.",
+           en:"The miners' strike in Lupeni (Jiu Valley) is put down with gunfire by the security forces. Sources give differing tolls, between 16 and 58 dead." },
+    sources:[{n:"Wikipedia: Lupeni strike of 1929", u:"https://en.wikipedia.org/wiki/Lupeni_strike_of_1929"}] },
+
+  { m:8, d:6, y:1917, scope:"ro", era:"modern",
+    title:{ ro:"Începe bătălia de la Mărășești", en:"The Battle of Mărășești begins" },
+    text:{ ro:"Între 6 august și 3 septembrie 1917, armata română, alături de trupe ruse, oprește ultima mare ofensivă a Puterilor Centrale pe frontul românesc și apără Moldova — teritoriul rămas liber după ocuparea Bucureștiului.",
+           en:"Between 6 August and 3 September 1917, the Romanian army, alongside Russian troops, halts the Central Powers' last major offensive on the Romanian front and defends Moldavia — the territory left free after Bucharest was occupied." },
+    sources:[{n:"Wikipedia: Battle of Mărășești", u:"https://en.wikipedia.org/wiki/Battle_of_M%C4%83r%C4%83%C8%99e%C8%99ti"}] },
+
+  { m:8, d:10, y:1913, scope:"ro", era:"modern",
+    title:{ ro:"Pacea de la București încheie al Doilea Război Balcanic", en:"The Peace of Bucharest ends the Second Balkan War" },
+    text:{ ro:"Bulgaria, România, Serbia, Muntenegru și Grecia semnează la București tratatul de pace. România obține sudul Dobrogei (Cadrilaterul).",
+           en:"Bulgaria, Romania, Serbia, Montenegro and Greece sign the peace treaty in Bucharest. Romania gains Southern Dobruja (the Quadrilateral)." },
+    sources:[{n:"Wikipedia: Treaty of Bucharest (1913)", u:"https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)"}] },
+
+  { m:8, d:13, y:1595, scope:"ro", era:"medieval",
+    title:{ ro:"Mihai Viteazul înfruntă otomanii la Călugăreni", en:"Michael the Brave faces the Ottomans at Călugăreni" },
+    text:{ ro:"Armata Țării Românești, condusă de Mihai Viteazul, înfruntă oastea otomană a lui Sinan Pașa la Călugăreni — bătălia care îl face cunoscut în toată Europa creștină. Data este 13 august pe stil vechi (23 august pe stil nou).",
+           en:"Wallachia's army, led by Michael the Brave, takes on Sinan Pasha's Ottoman host at Călugăreni — the battle that makes him known across Christian Europe. The date is 13 August old style (23 August new style)." },
+    sources:[{n:"Wikipedia: Battle of Călugăreni", u:"https://en.wikipedia.org/wiki/Battle_of_C%C4%83lug%C4%83reni"}] },
+
+  { m:8, d:27, y:1991, scope:"eu", era:"tranzitie",
+    title:{ ro:"Republica Moldova își declară independența", en:"The Republic of Moldova declares independence" },
+    text:{ ro:"După eșecul puciului comunist de la Moscova, Republica Moldova își declară independența față de Uniunea Sovietică.",
+           en:"After the failure of the communist coup attempt in Moscow, the Republic of Moldova declares its independence from the Soviet Union." },
+    sources:[{n:"Wikipedia: Declaration of Independence of Moldova", u:"https://en.wikipedia.org/wiki/Declaration_of_Independence_of_the_Republic_of_Moldova"}] },
+
+  { m:8, d:31, y:1989, scope:"eu", era:"comunism",
+    title:{ ro:"Basarabia revine la alfabetul latin", en:"Bessarabia returns to the Latin alphabet" },
+    text:{ ro:"Prin Legea 3462, RSS Moldovenească readoptă alfabetul latin pentru limba de stat, după decenii de scriere chirilică impusă de sovietici — cu regulile ortografice folosite atunci în România.",
+           en:"Through Law 3462, the Moldavian SSR readopts the Latin alphabet for the state language, after decades of Cyrillic script imposed by the Soviets — using the spelling rules then in use in Romania." },
+    sources:[{n:"Wikipedia: Moldovan language", u:"https://en.wikipedia.org/wiki/Moldovan_language"}] },
+
   /* ---------------- SEPTEMBRIE / SEPTEMBER ---------------- */
   { m:9, d:1, y:1939, scope:"eu", era:"ww2",
     title:{ ro:"Germania invadează Polonia: începe Al Doilea Război Mondial", en:"Germany invades Poland: the Second World War begins" },
@@ -725,6 +890,22 @@ const EVENTS = [
     text:{ ro:"Premierul care se opusese ferm Gărzii de Fier este ucis în plină zi la București. Represaliile și contra-represaliile care urmează adâncesc spirala violenței politice.",
            en:"The prime minister who had firmly opposed the Iron Guard is killed in broad daylight in Bucharest. The reprisals and counter-reprisals that follow deepen the spiral of political violence." },
     sources:[{n:"Wikipedia: Armand Călinescu", u:"https://en.wikipedia.org/wiki/Armand_C%C4%83linescu"}] },
+
+  { m:9, d:15, y:1983, scope:"ro", era:"comunism",
+    title:{ ro:"Doina Cornea, dată afară pentru că a spus adevărul", en:"Doina Cornea is fired for telling the truth" },
+    text:{ ro:"Profesoara clujeană Doina Cornea este concediată de la universitate pentru activitatea ei politică, după ce Radio Europa Liberă îi citise scrisorile de protest împotriva regimului Ceaușescu (prima trimisă în 1982). În anii următori va fi hărțuită și supravegheată de Securitate.",
+           en:"Cluj professor Doina Cornea is fired from the university for her political activity, after Radio Free Europe broadcast her protest letters against the Ceaușescu regime (the first sent in 1982). In the following years she is harassed and watched by the Securitate." },
+    why:{ ro:"Sub comunism, o simplă scrisoare îți putea distruge cariera. Curajul câtorva oameni a ținut vie ideea de libertate.",
+          en:"Under communism, a single letter could destroy your career. The courage of a few people kept the idea of freedom alive." },
+    sources:[{n:"Wikipedia: Doina Cornea", u:"https://en.wikipedia.org/wiki/Doina_Cornea"}] },
+
+  { m:9, d:30, y:1938, scope:"eu", era:"interbelic",
+    title:{ ro:"Acordul de la München", en:"The Munich Agreement" },
+    text:{ ro:"Germania nazistă, Regatul Unit, Franța și Italia decid la München, fără Cehoslovacia la masă, cedarea Sudeților către Hitler. Politica de „împăciuire” eșuează: un an mai târziu începe războiul.",
+           en:"Nazi Germany, the United Kingdom, France and Italy decide in Munich — without Czechoslovakia at the table — to hand the Sudetenland to Hitler. The policy of 'appeasement' fails: a year later the war begins." },
+    why:{ ro:"Lecția pentru statele mici, inclusiv România: garanțiile marilor puteri pot dispărea peste noapte. În 1940, România a pierdut și ea teritorii fără luptă.",
+          en:"The lesson for small states, Romania included: great-power guarantees can vanish overnight. In 1940, Romania too lost territory without a fight." },
+    sources:[{n:"Wikipedia: Munich Agreement", u:"https://en.wikipedia.org/wiki/Munich_Agreement"}] },
 
   /* ---------------- OCTOMBRIE / OCTOBER ---------------- */
   { m:10, d:1, y:1966, scope:"ro", era:"comunism",
@@ -777,6 +958,18 @@ const EVENTS = [
     why:{ ro:"Generația crescută în libertate a cerut ce nu putea cere generația părinților: responsabilitate.",
           en:"The generation raised in freedom demanded what their parents' generation never could: accountability." },
     sources:[{n:"Wikipedia: Colectiv nightclub fire", u:"https://en.wikipedia.org/wiki/Colectiv_nightclub_fire"}] },
+
+  { m:10, d:15, y:1922, scope:"ro", era:"interbelic",
+    title:{ ro:"Încoronarea de la Alba Iulia", en:"The coronation at Alba Iulia" },
+    text:{ ro:"Regele Ferdinand I și Regina Maria sunt încoronați la Alba Iulia, în curtea noii Catedrale a Încoronării — ceremonia care consacră România Mare, în orașul Marii Uniri.",
+           en:"King Ferdinand I and Queen Marie are crowned at Alba Iulia, in the courtyard of the new Coronation Cathedral — the ceremony that consecrates Greater Romania, in the city of the Great Union." },
+    sources:[{n:"Wikipedia: Ferdinand I of Romania", u:"https://en.wikipedia.org/wiki/Ferdinand_I_of_Romania"}] },
+
+  { m:10, d:18, y:1599, scope:"ro", era:"medieval",
+    title:{ ro:"Bătălia de la Șelimbăr: Mihai Viteazul cucerește Transilvania", en:"The Battle of Șelimbăr: Michael the Brave takes Transylvania" },
+    text:{ ro:"Lângă Sibiu, armata lui Mihai Viteazul învinge oastea principelui Andrei Báthory. Mihai devine conducătorul de facto al Transilvaniei.",
+           en:"Near Sibiu, Michael the Brave's army defeats the host of Prince Andrew Báthory. Michael becomes the de facto ruler of Transylvania." },
+    sources:[{n:"Wikipedia: Battle of Șelimbăr", u:"https://en.wikipedia.org/wiki/Battle_of_%C8%98elimb%C4%83r"}] },
 
   /* ---------------- NOIEMBRIE / NOVEMBER ---------------- */
   { m:11, d:4, y:1956, scope:"eu", era:"comunism",
@@ -837,9 +1030,10 @@ const EVENTS = [
 
   { m:11, d:27, y:1940, scope:"ro", era:"ww2",
     title:{ ro:"Masacrul de la Jilava; asasinarea lui Nicolae Iorga", en:"The Jilava massacre; the murder of Nicolae Iorga" },
-    text:{ ro:"Legionarii execută 64 de deținuți la Jilava, iar în zilele următoare îi asasinează pe istoricul Nicolae Iorga și pe economistul Virgil Madgearu — răfuiala sângeroasă a Gărzii de Fier cu vechea elită.",
-           en:"The Iron Guard executes 64 detainees at Jilava and, in the following days, murders historian Nicolae Iorga and economist Virgil Madgearu — the Guard's bloody settling of scores with the old elite." },
-    sources:[{n:"Wikipedia: Jilava massacre", u:"https://en.wikipedia.org/wiki/Jilava_massacre"}] },
+    text:{ ro:"În noaptea de 26 spre 27 noiembrie, legionarii execută 64 de deținuți la Jilava, iar pe 27 noiembrie îi asasinează pe istoricul Nicolae Iorga și pe economistul Virgil Madgearu — răfuiala sângeroasă a Gărzii de Fier cu vechea elită.",
+           en:"On the night of 26–27 November, the Iron Guard executes 64 detainees at Jilava, and on 27 November it murders historian Nicolae Iorga and economist Virgil Madgearu — the Guard's bloody settling of scores with the old elite." },
+    sources:[{n:"Wikipedia: Jilava massacre", u:"https://en.wikipedia.org/wiki/Jilava_massacre"},
+             {n:"Wikipedia: Nicolae Iorga", u:"https://en.wikipedia.org/wiki/Nicolae_Iorga"}] },
 
   { m:11, d:28, y:1918, scope:"ro", era:"modern",
     title:{ ro:"Unirea Bucovinei cu România", en:"Bukovina unites with Romania" },
@@ -855,6 +1049,34 @@ const EVENTS = [
           en:"A double lesson: Codreanu was a criminal, not a hero — but a state that kills without trial betrays its own legitimacy and manufactures martyrs for extremists." },
     sources:[{n:"Wikipedia: Corneliu Zelea Codreanu", u:"https://en.wikipedia.org/wiki/Corneliu_Zelea_Codreanu"},
              {n:"Wikipedia: Nicadori", u:"https://en.wikipedia.org/wiki/Nicadori"}] },
+
+  { m:11, d:1, y:1993, scope:"eu", era:"tranzitie",
+    title:{ ro:"Se naște oficial Uniunea Europeană", en:"The European Union is officially born" },
+    text:{ ro:"Tratatul de la Maastricht intră în vigoare: ia naștere Uniunea Europeană și, odată cu ea, cetățenia europeană.",
+           en:"The Maastricht Treaty enters into force: the European Union is born, and with it, European citizenship." },
+    why:{ ro:"Cetățenia europeană — dreptul de a trăi, munci și studia oriunde în UE — o au azi și românii.",
+          en:"European citizenship — the right to live, work and study anywhere in the EU — now belongs to Romanians too." },
+    sources:[{n:"Wikipedia: Maastricht Treaty", u:"https://en.wikipedia.org/wiki/Maastricht_Treaty"}] },
+
+  { m:11, d:11, y:1918, scope:"eu", era:"modern",
+    title:{ ro:"Armistițiul care încheie Primul Război Mondial", en:"The Armistice that ends the First World War" },
+    text:{ ro:"La ora 11:00, luptele Primului Război Mondial se opresc. Pentru România, sfârșitul războiului deschide drumul spre Marea Unire de la 1 decembrie.",
+           en:"At 11:00 a.m., the fighting of the First World War stops. For Romania, the end of the war opens the road to the Great Union of 1 December." },
+    sources:[{n:"Wikipedia: Armistice of 11 November 1918", u:"https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"}] },
+
+  { m:11, d:16, y:2014, scope:"ro", era:"ue",
+    title:{ ro:"Diaspora schimbă rezultatul alegerilor prezidențiale", en:"The diaspora changes the outcome of the presidential election" },
+    text:{ ro:"După proteste ample față de modul în care fusese organizat votul în străinătate, unde mulți români au stat ore întregi la cozi, Klaus Iohannis câștigă turul al doilea cu 54,5%, revenind spectaculos în fața lui Victor Ponta.",
+           en:"After large protests over how voting abroad had been organised, with many Romanians queuing for hours, Klaus Iohannis wins the runoff with 54.5%, a spectacular comeback against Victor Ponta." },
+    why:{ ro:"Românii care trăiesc în UE au devenit o forță politică reală: libera circulație a schimbat și felul în care votează țara.",
+          en:"Romanians living in the EU became a real political force: free movement also changed the way the country votes." },
+    sources:[{n:"Wikipedia: 2014 Romanian presidential election", u:"https://en.wikipedia.org/wiki/2014_Romanian_presidential_election"}] },
+
+  { m:11, d:25, y:2007, scope:"ro", era:"ue",
+    title:{ ro:"Primele alegeri europarlamentare din România", en:"Romania's first European Parliament elections" },
+    text:{ ro:"Pentru prima dată, românii își aleg direct reprezentanții în Parlamentul European.",
+           en:"For the first time, Romanians directly elect their representatives to the European Parliament." },
+    sources:[{n:"Wikipedia: 2007 EP election in Romania", u:"https://en.wikipedia.org/wiki/2007_European_Parliament_election_in_Romania"}] },
 
   /* ---------------- DECEMBRIE / DECEMBER ---------------- */
   { m:12, d:1, y:1918, scope:"ro", era:"modern",
@@ -961,7 +1183,44 @@ const EVENTS = [
            en:"Under blackmail and the threat of bloodshed, King Michael I signs his abdication. The same day, the Romanian People's Republic is proclaimed — the final piece of the communists' total takeover." },
     why:{ ro:"Data simbolică a instaurării depline a dictaturii comuniste în România.",
           en:"The symbolic date of the full installation of communist dictatorship in Romania." },
-    sources:[{n:"Wikipedia: Michael I of Romania", u:"https://en.wikipedia.org/wiki/Michael_I_of_Romania"}] }
+    sources:[{n:"Wikipedia: Michael I of Romania", u:"https://en.wikipedia.org/wiki/Michael_I_of_Romania"}] },
+
+  { m:12, d:6, y:2024, scope:"ro", era:"ue",
+    title:{ ro:"Curtea Constituțională anulează alegerile prezidențiale", en:"The Constitutional Court annuls the presidential election" },
+    text:{ ro:"Cu două zile înainte de turul al doilea, Curtea Constituțională anulează primul tur, după ce documente desecretizate ale serviciilor de informații au indicat o operațiune de influență rusă asupra votului. Decizia, fără precedent, rămâne controversată, iar alegerile sunt reluate în 2025.",
+           en:"Two days before the runoff, the Constitutional Court annuls the first round, after declassified intelligence documents pointed to a Russian influence operation targeting the vote. The unprecedented decision remains controversial, and the election is rerun in 2025." },
+    why:{ ro:"Războiul hibrid nu mai înseamnă doar tancuri: înseamnă și campanii online care încearcă să influențeze ce votezi. Verifică sursele.",
+          en:"Hybrid warfare is no longer just tanks: it also means online campaigns that try to influence how you vote. Check your sources." },
+    sources:[{n:"Wikipedia: 2024 Romanian presidential election", u:"https://en.wikipedia.org/wiki/2024_Romanian_presidential_election"}] },
+
+  { m:12, d:8, y:1991, scope:"ro", era:"tranzitie",
+    title:{ ro:"Românii aprobă prin referendum Constituția democratică", en:"Romanians approve the democratic Constitution by referendum" },
+    text:{ ro:"79% dintre votanți aprobă noua Constituție, care consacră România ca stat de drept democratic, cu separația puterilor și drepturi fundamentale garantate.",
+           en:"79% of voters approve the new Constitution, which establishes Romania as a democratic state under the rule of law, with separation of powers and guaranteed fundamental rights." },
+    sources:[{n:"Wikipedia: 1991 Romanian constitutional referendum", u:"https://en.wikipedia.org/wiki/1991_Romanian_constitutional_referendum"}] },
+
+  { m:12, d:10, y:1877, scope:"ro", era:"modern",
+    title:{ ro:"Cade Plevna: victorie decisivă în Războiul de Independență", en:"Plevna falls: a decisive victory in the War of Independence" },
+    text:{ ro:"După un asediu lung, Osman Pașa capitulează, acceptând condițiile oferite de colonelul român Mihail Cerchez. Victoria ruso-română de la Plevna decide soarta războiului.",
+           en:"After a long siege, Osman Pasha surrenders, accepting the terms offered by the Romanian colonel Mihail Cerchez. The Russian–Romanian victory at Plevna decides the outcome of the war." },
+    sources:[{n:"Wikipedia: Siege of Plevna", u:"https://en.wikipedia.org/wiki/Siege_of_Plevna"}] },
+
+  { m:12, d:11, y:1986, scope:"ro", era:"comunism",
+    title:{ ro:"Începe demolarea Mănăstirii Văcărești", en:"The demolition of Văcărești Monastery begins" },
+    text:{ ro:"Din ordinul lui Ceaușescu începe demolarea Mănăstirii Văcărești, ansamblu în stil brâncovenesc ridicat între 1716 și 1736. Lucrările continuă până la începutul lui 1987.",
+           en:"On Ceaușescu's orders, the demolition of Văcărești Monastery begins — a Brâncovenesc-style complex built between 1716 and 1736. The work continues into early 1987." },
+    why:{ ro:"Una dintre zecile de biserici și mănăstiri distruse sau mutate în anii ’80 pentru proiectele dictatorului.",
+          en:"One of dozens of churches and monasteries destroyed or moved in the 1980s for the dictator's projects." },
+    sources:[{n:"Wikipedia: Văcărești Monastery", u:"https://en.wikipedia.org/wiki/V%C4%83c%C4%83re%C8%99ti_Monastery"}] },
+
+  { m:12, d:18, y:2006, scope:"ro", era:"tranzitie",
+    title:{ ro:"Statul român condamnă oficial regimul comunist", en:"The Romanian state officially condemns the communist regime" },
+    text:{ ro:"Într-un discurs în Parlament, transmis în direct, președintele Traian Băsescu condamnă oficial regimul comunist de dinainte de 1989, pe baza raportului Comisiei Prezidențiale pentru Analiza Dictaturii Comuniste. Discursul este contestat zgomotos de unii parlamentari, mai ales din PRM.",
+           en:"In a live-broadcast speech to Parliament, President Traian Băsescu officially condemns Romania's pre-1989 communist regime, based on the report of the Presidential Commission for the Study of the Communist Dictatorship. Some MPs, mainly from the PRM, loudly protest the speech." },
+    why:{ ro:"La 17 ani de la căderea dictaturii, statul român și-a asumat oficial adevărul despre comunism — cu două săptămâni înainte de aderarea la UE.",
+          en:"Seventeen years after the dictatorship fell, the Romanian state officially owned the truth about communism — two weeks before joining the EU." },
+    sources:[{n:"Wikipedia: Traian Băsescu", u:"https://en.wikipedia.org/wiki/Traian_B%C4%83sescu"},
+             {n:"Wikipedia: Presidential Commission (Tismăneanu)", u:"https://en.wikipedia.org/wiki/Presidential_Commission_for_the_Study_of_the_Communist_Dictatorship_in_Romania"}] }
 ];
 
 /* ============================================================
@@ -1088,5 +1347,21 @@ const STATS = [
            en:"Fleeing the country meant risking death at the border or years in prison. Defectors' families were persecuted." },
     now:{ ro:"Milioane de români muncesc, studiază și circulă liber în UE — și tot mai mulți se întorc cu capital, idei și standarde noi.",
           en:"Millions of Romanians work, study and move freely across the EU — and more and more return home with capital, ideas and new standards." },
-    src:{n:"Wikipedia: Romanian diaspora", u:"https://en.wikipedia.org/wiki/Romanian_diaspora"} }
+    src:{n:"Wikipedia: Romanian diaspora", u:"https://en.wikipedia.org/wiki/Romanian_diaspora"} },
+
+  { icon:"🛣️",
+    title:{ ro:"Autostrăzile", en:"Motorways" },
+    then:{ ro:"Primul tronson de autostradă, A1 București–Pitești (96 km), a fost deschis în 1972. Planul general de autostrăzi din 1969 a rămas în mare parte pe hârtie.",
+           en:"The first motorway section, the A1 Bucharest–Pitești (96 km), opened in 1972. The general motorway plan of 1969 largely stayed on paper." },
+    now:{ ro:"1.486 km de autostrăzi și drumuri expres în funcțiune (noiembrie 2026) și încă ~950 km în construcție. Ritmul s-a accelerat după aderare, odată cu folosirea fondurilor europene.",
+          en:"1,486 km of motorways and expressways in service (November 2026), with another ~950 km under construction. The pace accelerated after accession, as EU funds were put to use." },
+    src:{n:"Wikipedia: Highways in Romania", u:"https://en.wikipedia.org/wiki/Highways_in_Romania"} },
+
+  { icon:"📜",
+    title:{ ro:"Adevărul despre trecut", en:"The truth about the past" },
+    then:{ ro:"Crimele regimului erau negate, arhivele Securității erau secrete, iar cenzura controla tot ce se publica — inclusiv istoria.",
+           en:"The regime's crimes were denied, the Securitate archives were secret, and censorship controlled everything that was published — history included." },
+    now:{ ro:"Pe 18 decembrie 2006, statul român a condamnat oficial regimul comunist în Parlament. Arhivele Securității pot fi consultate, iar oricine își poate citi propriul dosar.",
+          en:"On 18 December 2006, the Romanian state officially condemned the communist regime in Parliament. The Securitate archives are open, and anyone can read their own file." },
+    src:{n:"Wikipedia: Presidential Commission (Tismăneanu)", u:"https://en.wikipedia.org/wiki/Presidential_Commission_for_the_Study_of_the_Communist_Dictatorship_in_Romania"} }
 ];

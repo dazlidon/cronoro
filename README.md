@@ -15,7 +15,8 @@ Aplicație web educațională bilingvă (RO/EN) pentru Gen-Z: deschizi aplicați
 
 ## Stadiul acoperirii
 
-- **135 de evenimente**, acoperind **104 zile distincte** ale anului (țintă: 366).
+- **171 de evenimente**, acoperind **131 de zile distincte** ale anului (țintă: 366), plus **17 comparații** „Atunci vs. Acum”.
+- Fiecare dată nouă este verificată în textul Wikipedia înainte de a fi adăugată; detaliile care nu pot fi confirmate se elimină din text.
 - Zilele fără evenimente NU repetă conținutul zilelor vecine. În schimb:
   - dacă **ziua următoare** are evenimente → teaser „mâine în istorie” (cârlig de revenire);
   - altfel → **2 selecții „din arhivă”**, alese determinist pe baza datei (aceeași zi arată mereu aceleași evenimente; zile consecutive arată evenimente diferite — important pentru partajare și viitoarele notificări zilnice).
@@ -99,7 +100,7 @@ De adăugat înainte de App Store: iconițe native, splash screen, notificare zi
 
 ## Roadmap idei
 
-- [ ] Acoperire completă: minimum un eveniment pentru fiecare zi a anului (acum: 104/366)
+- [ ] Acoperire completă: minimum un eveniment pentru fiecare zi a anului (acum: 131/366)
 - [ ] Notificare zilnică (PWA push / Capacitor local notifications)
 - [ ] Partajare card pe Instagram/TikTok (generare imagine din card)
 - [ ] Mod „streak” — vii zilnic, îți crește seria (gamification)
